@@ -4,8 +4,8 @@ This is a simple python script to download <b>shared</b> playlists in Jukebox.
 
 Usage:
 
-1) Download the .zip<br/>
-   <a href="https://github.com/KKcorps/Jukebox_dld.zip">Jukebox_dld.zip</a><br/>
+1) Download the .zip from
+   <a href="https://github.com/KKcorps/Jukebox_dld/archive/master.zip"><b>Here</b></a><br/>
 2) Extract the package and cd into the directory from cmd/bash.<br/>
 3) To install the dependencies do <b>pip install -r requirements.txt</b><br/>
 4) After installation has finished, do <b>python jukebox_dld.py</b><br/>
