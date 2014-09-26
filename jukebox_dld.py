@@ -1,12 +1,19 @@
 import urllib2
 import json
 import os
+import argparse
+
+parser = argparse.ArgumentParser(description="Jukebox Playlist Downloader")
+parser.add_argument("playlist_Name", help="Enter the name of the shared Playlist")
 
 download_url = "https://channeli.in/songsmedia/download/songs/english/"
 playlist_url = "https://channeli.in/jukebox/playlists_public/"
 user_url = "https://channeli.in/jukebox/playlists/"
 
-playlist_name = raw_input('Enter playlist name: ')
+#playlist_name = raw_input('Enter playlist name: ')
+args = parser.parse_args()
+playlist_name = args.playlist_Name
+
 
 js = urllib2.urlopen(playlist_url)
 js_load = json.load(js)
