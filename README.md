@@ -25,3 +25,5 @@ Songs will be downloaded to <b><i>/yourCurrentDirectory/Jukebox/playlistName</i>
 <br/>
 
 This script is still in test phase.The songs may not properly download in windows system.
+
+<h5>Will be adding features soon....</h5>
