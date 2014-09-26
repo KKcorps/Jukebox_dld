@@ -2,8 +2,17 @@
 
 This is a simple python script to download <b>shared</b> playlists in Jukebox.</br>
 Ensure you have Python 2.7.3 or later but not 3.0+
+
+Also ensure you have the following packages installed:
+<ul>
+<li>urllib2</li>
+<li>json</li>
+<li>os</li>
+<li>sys</li>
+</ul>
 </br>
-<h4>Usage</h4>:
+
+<h4>Usage:</h4>
 
 1) Download the .zip from
    <a href="https://github.com/KKcorps/Jukebox_dld/archive/master.zip"><b>Here</b></a><br/>
