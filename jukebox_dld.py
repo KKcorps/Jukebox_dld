@@ -44,7 +44,7 @@ for song in songs_list:
     song_download = urllib2.urlopen(download_url+url_file_name)
     name = file_name.split('/')[-1]
     if not os.path.exists(location+name):
-        local_file = open(location+name,'w')
+        local_file = open(location+name,'wb')
         local_file.write(song_download.read())
         local_file.close()
     print "Downloaded Song: "+name
