@@ -8,7 +8,7 @@ Also ensure you have the following packages installed:
 <li>urllib2</li>
 <li>json</li>
 <li>os</li>
-<li>sys</li>
+<li>argparse</li>
 </ul>
 </br>
 
@@ -21,7 +21,7 @@ Also ensure you have the following packages installed:
 <li>Do <b>python jukebox_dld.py playlistName</b><br/> where playlistName is the name of the Playlist you want to download without quotes.</li>
 <li>All Done.</li>
 
-Songs will be downloaded to <b><i>/yourCurrentDirectory/Jukebox/playlistName</i></b><br/>
+Songs will be downloaded to <b><i>/yourCurrentDirectory/Download/Jukebox/playlistName</i></b><br/>
 <br/>
 
 This script is still in test phase.The songs may not properly download in windows system.
